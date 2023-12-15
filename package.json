@@ -1,0 +1,14 @@
+{
+  "name": "utn-backend-martinponce",
+  "version": "1.0.0",
+  "description": "htpp-server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "htpp"
+  ],
+  "author": "martinponce",
+  "license": "ISC"
+}
