@@ -1,32 +1,38 @@
 [
     {
-      "id": "a1b2c3",
-      "name": "Producto 1",
-      "price": 19.99,
-      "category": "Electrónicos"
+        "id": "a1b2c3",
+        "name": "Producto 1",
+        "price": 19.99,
+        "category": "Electrónicos"
     },
     {
-      "id": "x4y5z6",
-      "name": "Producto 2",
-      "price": 29.99,
-      "category": "Ropa"
+        "id": "x4y5z6",
+        "name": "Producto 2",
+        "price": 29.99,
+        "category": "Ropa"
     },
     {
-      "id": "m7n8o9",
-      "name": "Producto 3",
-      "price": 9.99,
-      "category": "Hogar"
+        "id": "m7n8o9",
+        "name": "Producto 3",
+        "price": 9.99,
+        "category": "Hogar"
     },
     {
-      "id": "p0q1r2",
-      "name": "Producto 4",
-      "price": 49.99,
-      "category": "Electrónicos"
+        "id": "p0q1r2",
+        "name": "Producto 4",
+        "price": 49.99,
+        "category": "Electrónicos"
     },
     {
-      "id": "s3t4u5",
-      "name": "Producto 5",
-      "price": 14.99,
-      "category": "Ropa"
+        "id": "s3t4u5",
+        "name": "Producto 5",
+        "price": 14.99,
+        "category": "Ropa"
+    },
+    {
+        "id": "5616",
+        "name": "Producto 6",
+        "price": 19.99,
+        "category": "Electrónicos"
     }
-  ]
+]

@@ -10,3 +10,4 @@ const readDatabase = () => {
 }
 
 export {readDatabase}
+
