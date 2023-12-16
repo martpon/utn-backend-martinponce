@@ -13,6 +13,7 @@ const serverHttp = http.createServer((request, response) => {
     switch (request.method) {
 
         case "GET":
+            
             if (request.url === "/") {
 
                 const responseServer = {
@@ -37,9 +38,18 @@ const serverHttp = http.createServer((request, response) => {
 
                 response.end(JSON.stringify(responseServer));
 
-            };
+            } else {
+
+                response.writeHead(404,{"Content-type": "text/plain"});
+                
+                response.end("Peticion incorrecta...");
+
+            }
             break;
-        default:
+        case "POST":
+
+            
+
 
 
     }
