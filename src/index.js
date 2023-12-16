@@ -41,11 +41,13 @@ const serverHttp = http.createServer((request, response) => {
 
                 response.writeHead(404, { "Content-type": "text/plain" });
 
-                response.end("Peticion incorrecta...");
+                response.end("Ruta no encontrada...");
 
             }
             break;
+
         case "POST":
+            
             if (request.url === "/products") {
 
                 const products = readDatabase();
@@ -72,7 +74,7 @@ const serverHttp = http.createServer((request, response) => {
 
                 response.writeHead(404, { "Content-type": "text/plain" });
 
-                response.end("Peticion incorrecta...");
+                response.end("Ruta no encontrada...");
 
             }
             break;
