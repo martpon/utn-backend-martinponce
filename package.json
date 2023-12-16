@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "htpp-server",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "node --watch src/index.js"
+    "dev": "node --watch src/index.js",
+    "example": "node src/example.js"
   },
   "keywords": [
     "htpp"
   ],
   "author": "martinponce",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
 }
